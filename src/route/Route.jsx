@@ -9,11 +9,13 @@ import BrandDatails from "../page/BrandDatails";
 import PrivateRoute from "../Components/PrivateRoute";
 import UpdateProfile from "../Components/UpdateProfile";
 import ForgetPassword from "../page/ForgetPassword";
+import Error from "../Components/Error";
 
 const router = createBrowserRouter([
     {
       path: "/",
       element: <MainLayout></MainLayout>,
+      errorElement:<Error></Error>,
       children:[
         {
             path:"/",

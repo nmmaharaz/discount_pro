@@ -43,6 +43,7 @@ const ForgetPassword = () => {
       <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
         {forgetEmail ? (
           <form onSubmit={handleForgetPassword} className="card-body">
+            <p className="text-3xl font-bold text-center text-[#f57f25]">Reset Password</p>
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Email</span>
@@ -61,6 +62,7 @@ const ForgetPassword = () => {
           </form>
         ) : (
           <form onSubmit={handleResetPassword} className="card-body">
+            <p className="text-3xl font-bold text-center text-[#f57f25]">Reset Password</p>
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Email</span>

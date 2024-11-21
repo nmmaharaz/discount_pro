@@ -43,6 +43,7 @@ const Login = () => {
     <div>
       <div className="card mx-auto mt-7 bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
         <form onSubmit={registrationSubmit} className="card-body">
+          <p className="text-3xl font-bold text-center text-[#f57f25]">Login</p>
           <div className="form-control">
             <label className="label">
               <span className="label-text">Email</span>
