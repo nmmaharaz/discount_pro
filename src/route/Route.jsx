@@ -6,6 +6,8 @@ import MyProfile from "../page/MyProfile";
 import Login from "../page/Login";
 import Resigtration from "../page/Resigtration";
 import BrandDatails from "../page/BrandDatails";
+import PrivateRoute from "../Components/PrivateRoute";
+import UpdateProfile from "../Components/UpdateProfile";
 
 const router = createBrowserRouter([
     {
@@ -23,12 +25,8 @@ const router = createBrowserRouter([
 
         },
         {
-            path:"/login",
-            element:<div>Hellow Login</div>
-        },
-        {
           path:"/my-profile",
-          element:<MyProfile></MyProfile>
+          element:<PrivateRoute><MyProfile></MyProfile></PrivateRoute>
         },
         {
           path:"/login",
@@ -41,7 +39,11 @@ const router = createBrowserRouter([
         {
           path:"/brand/:id",
           loader: ()=>fetch('/discount.json'),
-          element:<BrandDatails></BrandDatails>
+          element:<PrivateRoute><BrandDatails></BrandDatails></PrivateRoute>
+        },
+        {
+          path:"/updateprofile",
+          element:<PrivateRoute><UpdateProfile></UpdateProfile></PrivateRoute>
         }
       ]
     },

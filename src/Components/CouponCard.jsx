@@ -11,13 +11,12 @@ const CouponCard = ({d, shop_Link}) => {
        })
       }
     return (
-        <div className="bg-white p-6 text-center flex flex-col *:mb-3 justify-between rounded-2xl">
+        <div className="bg-white p-6 text-center flex flex-col justify-between rounded-2xl">
         
          <h3 className="text-3xl text-center font-bold text-[#f57f25]">{description}</h3>
-            <h4 className="text-xl font-semibold text-gray-600">{condition}</h4>
+            <h4 className="text-xl my-3 font-semibold text-gray-600">{condition}</h4>
             <p>Expiry Date: {expiry_date}</p>
-          {/* <p>{moment(expiry_date, "DDMMYYYY").fromNow()}</p> */}
-           <div className="flex justify-center">
+           <div className="flex justify-center mt-3">
            <CopyToClipboard text={coupon_code}>
               <button onClick={coped}  className="btn mr-4 bg-[#f57f25] text-white font-semibold cursor-pointer">
                 {coupon_code}

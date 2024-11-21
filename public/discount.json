@@ -3,7 +3,7 @@
     "_id": "1",
     "brand_name": "Aarong",
     "rating": 5,
-    "description": "One of the leading lifestyle brands in Bangladesh.",
+    "description": "Aarong is a leading Bangladeshi lifestyle brand, offering premium fashion, home, and craft products nationwide.",
     "brand_logo": "https://i.ibb.co.com/B3pdjjp/53142143-b874-49aa-a45a-755038438d76.png",
     "shop_Link": "https://www.aarong.com",
     "category": "Fashion",
@@ -36,7 +36,7 @@
     "_id": "2",
     "brand_name": "Pran",
     "rating": 3.8,
-    "description": "Leading food and beverage brand in Bangladesh.",
+    "description": "Pran is a renowned Bangladeshi food and beverage company known for its quality and affordability.",
     "brand_logo": "https://i.ibb.co.com/D4fBzYw/pran.png",
     "shop_Link": "https://www.pranfoods.net",
     "category": "Food & Beverage",
@@ -69,7 +69,7 @@
     "_id": "3",
     "brand_name": "Grameen UNIQLO",
     "rating": 4.2,
-    "description": "Affordable fashion from Grameen UNIQLO.",
+    "description": "Grameen UNIQLO brings affordable, sustainable, and fashionable clothing options to the Bangladeshi market with global standards.",
     "brand_logo": "https://i.ibb.co.com/hmrwJ6T/4419675b-78a1-4fbd-a5fc-7a4c23ce821c.png",
     "shop_Link": "https://www.uniqlo.com/th/en/sustainability/",
     "category": "Fashion",
@@ -102,7 +102,7 @@
     "_id": "4",
     "brand_name": "RFL",
     "rating": 4.7,
-    "description": "Home essentials and lifestyle products by RFL.",
+    "description": "RFL provides diverse home and living products, including essentials and lifestyle items for Bangladeshi households.",
     "brand_logo": "https://i.ibb.co.com/MNrzLBT/RFL.png",
     "shop_Link": "https://www.rflbd.com",
     "category": "Home & Living",
@@ -135,7 +135,7 @@
     "_id": "5",
     "brand_name": "Bata",
     "rating": 3.5,
-    "description": "Trusted footwear brand in Bangladesh.",
+    "description": "Bata is a trusted footwear brand in Bangladesh, offering comfortable and stylish shoes for all ages.",
     "brand_logo": "https://i.ibb.co.com/z6pSrZ3/987f81a9-8aa8-42e3-b4db-b40d2b5a0c86.png",
     "shop_Link": "https://www.batabd.com",
     "category": "Footwear",
@@ -168,7 +168,7 @@
     "_id": "6",
     "brand_name": "BRAC Dairy",
     "rating": 2.2,
-    "description": "Quality dairy products by BRAC Dairy.",
+    "description": "BRAC Dairy offers high-quality, affordable dairy products to ensure fresh and nutritious options for Bangladeshi consumers.",
     "brand_logo": "https://i.ibb.co.com/YbQGJBg/BRAC-logo-01.png",
     "shop_Link": "https://www.brac.net/dairy",
     "category": "Dairy",
@@ -201,7 +201,7 @@
     "_id": "7",
     "brand_name": "Square",
     "rating": 4.1,
-    "description": "Pharmaceutical and health products by Square.",
+    "description": "Square provides high-quality pharmaceutical and health products, trusted for reliability, innovation, and consumer care across industries.",
     "brand_logo": "https://i.ibb.co.com/g4cZGQx/685ede63-3153-4e64-95b0-685e6b0fd1a2.png",
     "shop_Link": "https://www.squarepharma.com.bd",
     "category": "Healthcare",
@@ -230,170 +230,170 @@
       }
     ]
   },
-    {
-      "_id": "8",
-      "brand_name": "Walton",
-      "rating": 4.3,
-      "description": "Innovative electronics and appliances by Walton.",
-      "brand_logo": "https://i.ibb.co.com/zRDdDLT/78db3a51-8e52-46c6-bdc5-02d84c2decfd.png",
-      "shop_Link": "https://www.waltonbd.com",
-      "category": "Electronics",
-      "isSaleOn": true,
-      "coupons": [
-        {
-          "coupon_code": "WALTON15",
-          "description": "15% off on Walton appliances",
-          "expiry_date": "2024-12-10",
-          "condition": "Valid on all electronics",
-          "coupon_type": "Discount"
-        },
-        {
-          "coupon_code": "WALTON20",
-          "description": "20% off on selected electronics",
-          "expiry_date": "2025-01-15",
-          "condition": "Valid on select electronics only",
-          "coupon_type": "Discount"
-        },
-        {
-          "coupon_code": "WALTON30",
-          "description": "30% off on home appliances",
-          "expiry_date": "2024-12-31",
-          "condition": "Valid on home appliances only",
-          "coupon_type": "Discount"
-        }
-      ]
-    },
-    {
-      "_id": "9",
-      "brand_name": "Beximco",
-      "rating": 3.6,
-      "description": "Innovative textiles and pharmaceuticals by Beximco.",
-      "brand_logo": "https://i.ibb.co.com/gwSyx09/Beximco.png",
-      "shop_Link": "https://www.beximco.com",
-      "category": "Textiles & Pharma",
-      "isSaleOn": true,
-      "coupons": [
-        {
-          "coupon_code": "BEXIMCO10",
-          "description": "10% off on textile products",
-          "expiry_date": "2025-03-01",
-          "condition": "Excludes sale items",
-          "coupon_type": "Discount"
-        },
-        {
-          "coupon_code": "BEXIMCO15",
-          "description": "15% off on all textiles",
-          "expiry_date": "2024-12-31",
-          "condition": "Valid on all textile products",
-          "coupon_type": "Discount"
-        },
-        {
-          "coupon_code": "BEXIMCO5",
-          "description": "5% off on pharmaceuticals",
-          "expiry_date": "2025-02-28",
-          "condition": "Excludes sale items",
-          "coupon_type": "Discount"
-        }
-      ]
-    },
-    {
-      "_id": "10",
-      "brand_name": "IFAD Group",
-      "rating": 4.0,
-      "description": "Quality consumer goods by IFAD.",
-      "brand_logo": "https://i.ibb.co.com/M1s5836/b9a3fc85-e67e-4ef9-9d1a-03be395a93fb.png",
-      "shop_Link": "https://www.ifadgroup.com",
-      "category": "Food & Beverage",
-      "isSaleOn": false,
-      "coupons": [
-        {
-          "coupon_code": "IFAD5",
-          "description": "5% off on snacks and beverages",
-          "expiry_date": "2024-01-10",
-          "condition": "Applicable only on select products",
-          "coupon_type": "Discount"
-        },
-        {
-          "coupon_code": "IFAD10",
-          "description": "10% off on all beverages",
-          "expiry_date": "2024-05-01",
-          "condition": "Valid on beverage products only",
-          "coupon_type": "Discount"
-        },
-        {
-          "coupon_code": "IFAD15",
-          "description": "15% off on snacks",
-          "expiry_date": "2024-02-28",
-          "condition": "Valid on select snack products",
-          "coupon_type": "Discount"
-        }
-      ]
-    },
-    {
-      "_id": "11",
-      "brand_name": "Gazi Tyres",
-      "rating": 3.4,
-      "description": "Reliable tire brand from Bangladesh.",
-      "brand_logo": "https://i.ibb.co.com/R3hSvh8/f412f544-11ad-4e03-a17c-201597287513.png",
-      "shop_Link": "https://www.gazi.com.bd",
-      "category": "Automotive",
-      "isSaleOn": true,
-      "coupons": [
-        {
-          "coupon_code": "GAZI10",
-          "description": "10% off on tires and accessories",
-          "expiry_date": "2024-12-31",
-          "condition": "No restrictions",
-          "coupon_type": "Discount"
-        },
-        {
-          "coupon_code": "GAZI15",
-          "description": "15% off on selected tires",
-          "expiry_date": "2024-11-30",
-          "condition": "Valid on selected tire brands only",
-          "coupon_type": "Discount"
-        },
-        {
-          "coupon_code": "GAZI20",
-          "description": "20% off on all tire purchases",
-          "expiry_date": "2025-01-15",
-          "condition": "Valid on all tire purchases",
-          "coupon_type": "Discount"
-        }
-      ]
-    },
-    {
-      "_id": "12",
-      "brand_name": "Partex Group",
-      "rating": 4.5,
-      "description": "Furniture and consumer products from Partex.",
-      "brand_logo": "https://i.ibb.co.com/zZtLydK/687a41f2-606a-4f9a-98d8-3e325135e9a9.png",
-      "shop_Link": "https://www.partex.net",
-      "category": "Furniture",
-      "isSaleOn": true,
-      "coupons": [
-        {
-          "coupon_code": "PARTEX5",
-          "description": "5% off on furniture",
-          "expiry_date": "2025-02-15",
-          "condition": "Only on select items",
-          "coupon_type": "Discount"
-        },
-        {
-          "coupon_code": "PARTEX10",
-          "description": "10% off on home furniture",
-          "expiry_date": "2024-12-31",
-          "condition": "Valid on home furniture only",
-          "coupon_type": "Discount"
-        },
-        {
-          "coupon_code": "PARTEX15",
-          "description": "15% off on selected furniture items",
-          "expiry_date": "2025-03-31",
-          "condition": "Valid on select furniture only",
-          "coupon_type": "Discount"
-        }
-      ]
-    }
+  {
+    "_id": "8",
+    "brand_name": "Walton",
+    "rating": 4.3,
+    "description": "Walton offers cutting-edge electronics, appliances, and solutions for modern living with innovation and affordability in mind.",
+    "brand_logo": "https://i.ibb.co.com/zRDdDLT/78db3a51-8e52-46c6-bdc5-02d84c2decfd.png",
+    "shop_Link": "https://www.waltonbd.com",
+    "category": "Electronics",
+    "isSaleOn": true,
+    "coupons": [
+      {
+        "coupon_code": "WALTON15",
+        "description": "15% off on Walton appliances",
+        "expiry_date": "2024-12-10",
+        "condition": "Valid on all electronics",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "WALTON20",
+        "description": "20% off on selected electronics",
+        "expiry_date": "2025-01-15",
+        "condition": "Valid on select electronics only",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "WALTON30",
+        "description": "30% off on home appliances",
+        "expiry_date": "2024-12-31",
+        "condition": "Valid on home appliances only",
+        "coupon_type": "Discount"
+      }
+    ]
+  },
+  {
+    "_id": "9",
+    "brand_name": "Beximco",
+    "rating": 3.6,
+    "description": "Beximco is a leader in textiles and pharmaceuticals, focusing on innovative and sustainable solutions for global markets.",
+    "brand_logo": "https://i.ibb.co.com/gwSyx09/Beximco.png",
+    "shop_Link": "https://www.beximco.com",
+    "category": "Textiles & Pharma",
+    "isSaleOn": true,
+    "coupons": [
+      {
+        "coupon_code": "BEXIMCO10",
+        "description": "10% off on textile products",
+        "expiry_date": "2025-03-01",
+        "condition": "Excludes sale items",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "BEXIMCO15",
+        "description": "15% off on all textiles",
+        "expiry_date": "2024-12-31",
+        "condition": "Valid on all textile products",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "BEXIMCO5",
+        "description": "5% off on pharmaceuticals",
+        "expiry_date": "2025-02-28",
+        "condition": "Excludes sale items",
+        "coupon_type": "Discount"
+      }
+    ]
+  },
+  {
+    "_id": "10",
+    "brand_name": "IFAD Group",
+    "rating": 4.0,
+    "description": "IFAD Group offers quality consumer goods, including food and beverages, with a commitment to satisfaction and excellence.",
+    "brand_logo": "https://i.ibb.co.com/M1s5836/b9a3fc85-e67e-4ef9-9d1a-03be395a93fb.png",
+    "shop_Link": "https://www.ifadgroup.com",
+    "category": "Food & Beverage",
+    "isSaleOn": false,
+    "coupons": [
+      {
+        "coupon_code": "IFAD5",
+        "description": "5% off on snacks and beverages",
+        "expiry_date": "2024-01-10",
+        "condition": "Applicable only on select products",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "IFAD10",
+        "description": "10% off on all beverages",
+        "expiry_date": "2024-05-01",
+        "condition": "Valid on beverage products only",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "IFAD15",
+        "description": "15% off on snacks",
+        "expiry_date": "2024-02-28",
+        "condition": "Valid on select snack products",
+        "coupon_type": "Discount"
+      }
+    ]
+  },
+  {
+    "_id": "11",
+    "brand_name": "Gazi Tyres",
+    "rating": 3.4,
+    "description": "Gazi Tyres is a trusted tire brand, delivering reliable performance for automotive and industrial applications.",
+    "brand_logo": "https://i.ibb.co.com/R3hSvh8/f412f544-11ad-4e03-a17c-201597287513.png",
+    "shop_Link": "https://www.gazi.com.bd",
+    "category": "Automotive",
+    "isSaleOn": true,
+    "coupons": [
+      {
+        "coupon_code": "GAZI10",
+        "description": "10% off on tires and accessories",
+        "expiry_date": "2024-12-31",
+        "condition": "No restrictions",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "GAZI15",
+        "description": "15% off on selected tires",
+        "expiry_date": "2024-11-30",
+        "condition": "Valid on selected tire brands only",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "GAZI20",
+        "description": "20% off on all tire purchases",
+        "expiry_date": "2025-01-15",
+        "condition": "Valid on all tire purchases",
+        "coupon_type": "Discount"
+      }
+    ]
+  },
+  {
+    "_id": "12",
+    "brand_name": "Partex Group",
+    "rating": 4.5,
+    "description": "Partex Group offers high-quality furniture and consumer goods, blending innovation with style for home and business needs.",
+    "brand_logo": "https://i.ibb.co.com/zZtLydK/687a41f2-606a-4f9a-98d8-3e325135e9a9.png",
+    "shop_Link": "https://www.partex.net",
+    "category": "Furniture",
+    "isSaleOn": true,
+    "coupons": [
+      {
+        "coupon_code": "PARTEX5",
+        "description": "5% off on furniture",
+        "expiry_date": "2025-02-15",
+        "condition": "Only on select items",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "PARTEX10",
+        "description": "10% off on home furniture",
+        "expiry_date": "2024-12-31",
+        "condition": "Valid on home furniture only",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "PARTEX15",
+        "description": "15% off on selected furniture items",
+        "expiry_date": "2025-03-31",
+        "condition": "Valid on select furniture only",
+        "coupon_type": "Discount"
+      }
+    ]
+  }
   ]
   

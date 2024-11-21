@@ -24,7 +24,7 @@ const BrandDatails = () => {
 
   return (
     <div className="w-10/12 mx-auto mt-7">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center flex-col lg:flex-row justify-between">
           <h2 className="text-5xl text-[#f57f25] font-bold">{brand_name}</h2>
         <div className="flex w-[150px] h[150px]  overflow-hidden p-2 flex-col items-center">
           <img className="w-full h-full object-fill " src={brand_logo} alt="" />
@@ -42,8 +42,8 @@ const BrandDatails = () => {
             )}
           </div>
         </div>
-      <div className="mt-7 rounded-2xl p-5 border border-solid border-gray-300">
-      <div className="grid grid-cols-3 gap-x-5">
+      <div className="mt-7 mb-7 rounded-2xl px-5 pt-5 lg:pt-0 lg:px-0  border border-solid border-gray-300">
+      <div className="grid grid-cols-1 lg:grid-cols-3 lg:p-5 gap-y-5 lg:gap-y-0 lg:gap-x-5">
       {
         coupons && coupons.map((d, i) =><CouponCard key={i} shop_Link={shop_Link} d={d}></CouponCard>)
       }

@@ -3,7 +3,19 @@ import { Link, NavLink } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
 import { BiCategory } from "react-icons/bi";
 import { CgProfile } from "react-icons/cg";
+import { useContext } from "react";
+import { AuthContext } from "./AuthProvider";
 const Navbar = () => {
+  const {user, logOut} = useContext(AuthContext)
+  const handleLogOut = () =>{
+    logOut()
+    .then(result=>{
+      console.log("Hellow ReSult",result)
+    })
+    .catch(error=>{
+      console.log("ERROR", error)
+    })
+  }
   return (
     <div className="bg-[#f57f25]">
       <div className="w-11/12 mx-auto">
@@ -44,16 +56,26 @@ const Navbar = () => {
             <li>
               <NavLink to="/brands"><BiCategory></BiCategory> Brands</NavLink>
             </li>
-            <li>
-              <NavLink to="/my-profile"><CgProfile></CgProfile> My Profile</NavLink>
-            </li>
+            {
+                user && user?.email ? ( <li>
+                  <NavLink to="/my-profile"><CgProfile></CgProfile> My Profile</NavLink>
+                </li>):""
+               }
 
 
           </ul>
         </div>
         <div className=" *:font-semibold *:text-white hidden lg:flex navbar-end">
-          <Link to="/login" className="mr-4">Login</Link>
-          <Link to="/registration">Registration</Link>
+          <p>{user && user?.email ? <p className="mr-4">{user.email}</p>:""}</p>
+          {
+            user && user?.email?<div className="flex items-center">
+               {
+                user && user?.photoURL ? (<div><img className="w-[45px] h-[45px] rounded-full" src={user.photoURL} alt="" /></div>):(<p><CgProfile className="text-4xl" /></p>)
+               }
+              <p className="ml-4 cursor-pointer" onClick={handleLogOut}>LogOut</p>
+              </div>:<div><Link to="/login" className="mr-4">Login</Link>
+          <Link to="/registration" className="">Registration</Link></div>
+          }
         </div>
       </div>
     </div>
