@@ -14,7 +14,7 @@ const BrandOnSell = ({onsell}) => {
     <h2 className="card-title text-4xl font-bold text-[#0f6efb]">{brand_name}</h2>
     <div className="divider my-1"></div>
     <p className="text-[#f57f25] text-xl text-center font-bold">Coupons</p>
-    <div className="flex flex-col">
+    <div className="flex flex-col items-center justify-center">
     {
         coupons && coupons.map((d, i) =><p key={i}>{d.description}</p>)
       }

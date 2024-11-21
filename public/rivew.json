@@ -1,0 +1,45 @@
+[
+    {
+      "id": "1",
+      "photo": "https://i.ibb.co.com/BB9kLQp/images.jpg",
+      "name": "John Doe",
+      "rating": 4.5,
+      "description": "Great product! It's exactly what I was looking for. The quality is excellent and delivery was quick."
+    },
+    {
+      "id": "2",
+      "photo": "https://i.ibb.co.com/HxCXpBc/john-doe.jpg",
+      "name": "Jane Smith",
+      "rating": 3.0,
+      "description": "The product is good, but the color was not as expected. Still, it's decent for the price."
+    },
+    {
+      "id": "3",
+      "photo": "https://i.ibb.co.com/0n3tdpp/Alice-Johnson.png",
+      "name": "Alice Johnson",
+      "rating": 5.0,
+      "description": "I absolutely love this! It's high quality and fits perfectly. Will definitely buy again!"
+    },
+    {
+      "id": "4",
+      "photo": "https://i.ibb.co.com/qN4j3QQ/Chris-Lee.jpg",
+      "name": "Chris Lee",
+      "rating": 2.5,
+      "description": "The product arrived late and was a little damaged. It's functional, but not what I expected."
+    },
+    {
+      "id": "5",
+      "photo": "https://i.ibb.co.com/k5XpKRT/Emily-Davis.jpg",
+      "name": "Emily Davis",
+      "rating": 4.0,
+      "description": "Good quality for the price. The fabric feels nice, and the size fits well. Would recommend."
+    },
+    {
+      "id": "6",
+      "photo": "https://i.ibb.co.com/f0m4q3p/Michael-Brown.jpg",
+      "name": "Michael Brown",
+      "rating": 5.0,
+      "description": "Perfect purchase! This item exceeded my expectations. It's durable, stylish, and works great."
+    }
+  ]
+  

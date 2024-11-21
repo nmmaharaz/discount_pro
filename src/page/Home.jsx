@@ -5,6 +5,7 @@ import { Link, useLoaderData } from "react-router-dom";
 import ShowTopBrand from "../Components/ShowTopBrand";
 import BrandOnSell from "../Components/BrandOnSell";
 import ShowGudies from "../Components/ShowGudies";
+import RivewCard from "../Components/RivewCard";
 const Home = () => {
   const [topData, setTopData] = useState([]);
   const data = useLoaderData();
@@ -18,6 +19,12 @@ const Home = () => {
     fetch("guides.json")
       .then((res) => res.json())
       .then((data) => setGuides(data));
+  }, []);
+  const [rivew, setRivew] = useState([]);
+  useEffect(() => {
+    fetch("rivew.json")
+      .then((res) => res.json())
+      .then((data) => setRivew(data));
   }, []);
   return (
     <div>
@@ -52,7 +59,20 @@ const Home = () => {
         }
       </div>
       </div>
+      <div className="lg:divider text-center font-bold py-7 text-4xl">
+      <span className="lg:w-full">Get the Latest & Greatest Shopping Guides </span>
+        </div>
+        <div className="mb-5">
         <ShowGudies guides={guides}></ShowGudies>
+        </div>
+        <div className="divider text-center font-bold my-9 text-4xl">
+        Top Reviews 
+      </div>
+        <div className="mb-5 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5">
+            {
+                rivew.map(rivewData=> <RivewCard key={rivewData.id} rivewData={rivewData}></RivewCard>)
+            }
+        </div>
       </div>
     </div>
   );
