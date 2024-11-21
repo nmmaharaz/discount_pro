@@ -4,9 +4,11 @@ import { Link, useNavigate } from "react-router-dom";
 import google from "../assets/google.png";
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import auth from "../Components/firebase-init";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 const Resigtration = () => {
   const [errormassage, setErrorMassage] = useState("");
+  const [showPassword, setShowPassword] = useState(false)
   const navigate = useNavigate();
   const { registration, setUser, AuthupdateProfile } = useContext(AuthContext);
   const registrationSubmit = (e) => {
@@ -97,18 +99,21 @@ const Resigtration = () => {
               required
             />
           </div>
-          <div className="form-control">
+          <div className="form-control relative">
             <label className="label">
               <span className="label-text">Password</span>
             </label>
             <input
-              type="password"
+              type={showPassword?'text':'password'}
               name="password"
               placeholder="password"
-              className="input input-bordered"
+              className="input pr-8 input-bordered"
               required
             />
             {errormassage && <p className="text-red-700">{errormassage}</p>}
+            {showPassword ? <FaEye onClick={()=>setShowPassword(!showPassword)} className="absolute right-3 cursor-pointer top-[63%]" />:<FaEyeSlash onClick={()=>setShowPassword(!showPassword)}  className="absolute right-3 cursor-pointer top-[63%]" />
+          }
+            
           </div>
           <div className="form-control mt-3">
             <button className="btn bg-[#f57f25] text-white">Register</button>

@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <Marquee pauseOnHover className="cursor-pointer">
+            <Marquee pauseOnHover className="cursor-pointer mt-7">
             {
                 discountData.map(discount=><div key={discount._id} className="mr-[80px]" ><Link to={'/brands'}><img className="h-[50px] w-full" src={discount.brand_logo} alt="" /></Link></div>)
             }

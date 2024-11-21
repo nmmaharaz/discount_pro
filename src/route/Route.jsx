@@ -8,6 +8,7 @@ import Resigtration from "../page/Resigtration";
 import BrandDatails from "../page/BrandDatails";
 import PrivateRoute from "../Components/PrivateRoute";
 import UpdateProfile from "../Components/UpdateProfile";
+import ForgetPassword from "../page/ForgetPassword";
 
 const router = createBrowserRouter([
     {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
         {
           path:"/updateprofile",
           element:<PrivateRoute><UpdateProfile></UpdateProfile></PrivateRoute>
+        },
+        {
+          path:"/forgetpassword",
+          element:<ForgetPassword></ForgetPassword>
         }
       ]
     },
