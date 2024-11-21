@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
     "firebase": "^11.0.2",
     "javascript-time-ago": "^2.5.11",
     "localforage": "^1.10.0",

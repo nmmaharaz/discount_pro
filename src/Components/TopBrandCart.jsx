@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import StarRatings from "react-star-ratings";
 
 const TopBrandCart = ({topbrand}) => {
-    console.log("This Top Brand",topbrand)
     return (
         <div className="flex items-center p-4 rounded-xl bg-white justify-between">
             <p className="text-xl text-[#f57f25] font-semibold">{topbrand.title}</p>

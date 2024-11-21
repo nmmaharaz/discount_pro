@@ -32,11 +32,9 @@ const ForgetPassword = () => {
     resetPassword(email)
     .then(result=>{
         logOut()
-        console.log(result)
     })
     .catch(error=>{
         logOut()
-        console.log(error)
     })
   };
 

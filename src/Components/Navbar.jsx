@@ -10,10 +10,8 @@ const Navbar = () => {
   const handleLogOut = () =>{
     logOut()
     .then(result=>{
-      console.log("Hellow ReSult",result)
     })
     .catch(error=>{
-      console.log("ERROR", error)
     })
   }
   return (

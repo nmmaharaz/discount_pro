@@ -7,7 +7,6 @@ const AuthProvider = ({children}) => {
     const [user, setUser] = useState(null)
     const [loader, setLoader] = useState(true)
     const [forgetEmail, setForgetEmail] = useState("")
-    console.log(forgetEmail)
     const registration = (email, password)=>{
         setLoader(true)
         return createUserWithEmailAndPassword(auth, email, password)

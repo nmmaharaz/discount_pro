@@ -38,13 +38,10 @@ const Resigtration = () => {
       .then((result) => {
         const user = result.user;
         setUser(user);
-        console.log(user)
         AuthupdateProfile({displayName:name, photoURL:photourl})
         .then(result=>{
           navigate("/");
-          console.log("HELLOW")
         }).catch(error=>{
-          console.log("ERROR")
         })
       })
       .catch((error) => {});
@@ -53,10 +50,8 @@ const Resigtration = () => {
   const handleGoogle = () => {
     signInWithPopup(auth, provider)
       .then((result) => {
-        console.log(result);
       })
       .catch((error) => {
-        console.log(error);
       });
   };
   return (

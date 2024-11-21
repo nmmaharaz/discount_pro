@@ -5,7 +5,6 @@ import "react-slideshow-image/dist/styles.css";
 import "react-slideshow-image/dist/styles.css";
 const Banner = () => {
   const [bannerData, setBannerData] = useState([]);
-  console.log("BANNERDATA", bannerData);
   useEffect(() => {
     fetch("bannerImage.json")
       .then((res) => res.json())

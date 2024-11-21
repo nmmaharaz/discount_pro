@@ -16,9 +16,7 @@ const UpdateProfile = () => {
             return {...preUser, displayName:name, photoURL: photourl}
           })
             navigate("/my-profile")
-          console.log("HELLOW")
         }).catch(error=>{
-          console.log("ERROR", error.massage)
         })
       }
     return (

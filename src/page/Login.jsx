@@ -18,15 +18,11 @@ const Login = () => {
     e.preventDefault();
     const email = e.target.email.value;
     const password = e.target.password.value;
-    console.log(email)
-    // console.log(email, password);
     userLogin(email, password)
     .then((result) => {
       navigate(state ? state : "/");
-      console.log(result);
     })
     .catch((error) => {
-      console.log(error);
     });
   };
   const provider = new GoogleAuthProvider();
@@ -34,10 +30,8 @@ const Login = () => {
     signInWithPopup(auth, provider)
       .then((result) => {
         navigate(state ? state : "/");
-        console.log(result);
       })
       .catch((error) => {
-        console.log(error);
       });
   };
   const handleForgetEmail=()=>{

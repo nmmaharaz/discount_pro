@@ -3,7 +3,7 @@ import StarRatings from "react-star-ratings";
 const RivewCard = ({rivewData}) => {
     const {photo, name, rating, description} = rivewData
     return (
-        <div>
+        <div className="animate__animated animate__bounce animate__repeat-1 animate-duration: 5s animate-duration: 2s;">
             <div className="card bg-base-100 max-w-96">
   <figure>
     <img className="h-[250px] object-center w-full"
