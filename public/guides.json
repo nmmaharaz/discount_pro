@@ -1,0 +1,73 @@
+[
+    {
+      "photo": "https://i.ibb.co.com/r365Kqw/emma-stone.png",
+      "date": "2024-02-02",
+      "item": "Gucci Slingbacks",
+      "description": "Luxury heels featuring a Marina chain, inspired by yachting.",
+      "people_name": "Emma Stone"
+    },
+    {
+      "photo": "Holiday Gift Ideas",
+      "date": "2024-11-22",
+      "item": "Dyson Airwrap",
+      "description": "A premium hair-styling tool loved by beauty enthusiasts.",
+      "people_name": "Kim Kardashian"
+    },
+    {
+      "photo": "Home and Living Essentials",
+      "date": "2023-01-15",
+      "item": "Bombas Sunday Slippers",
+      "description": "Cozy sherpa slippers with a memory foam footbed.",
+      "people_name": "Reese Witherspoon"
+    },
+    {
+      "photo": "https://i.ibb.co.com/NjPYsqv/Dyson-Airwrap.png",
+      "date": "2023-10-21",
+      "item": "E.l.f. Halo Glow Filter Primer",
+      "description": "A budget-friendly primer with glowing reviews.",
+      "people_name": "NikkieTutorials"
+    },
+    {
+      "photo": "Tech Gadgets",
+      "date": "2023-11-21",
+      "item": "Apple iPhone 15 Pro",
+      "description": "The latest iPhone model with advanced camera features and A17 chip.",
+      "people_name": "Tim Cook"
+    },
+    {
+      "photo": "Outdoor Gear",
+      "date": "2020-1-11",
+      "item": "Patagonia Down Sweater",
+      "description": "A lightweight, warm jacket ideal for outdoor activities.",
+      "people_name": "Leonardo DiCaprio"
+    },
+    {
+      "photo": "Fitness Equipment",
+      "date": "2024-1-21",
+      "item": "Peloton Bike+",
+      "description": "An interactive exercise bike with live-streamed classes.",
+      "people_name": "Kerry Washington"
+    },
+    {
+      "photo": "https://i.ibb.co.com/qBQRX0b/Chris-Pratt.png",
+      "date": "2022-02-01",
+      "item": "LEGO Creator 3-in-1 Pirate Ship",
+      "description": "A creative and versatile LEGO set for building a pirate ship.",
+      "people_name": "Chris Pratt"
+    },
+    {
+      "photo": "Kitchen Appliances",
+      "date": "2024-5-11",
+      "item": "Ninja Professional Blender",
+      "description": "A powerful blender for making smoothies and soups.",
+      "people_name": "Gordon Ramsay"
+    },
+    {
+      "photo": "Books and Literature",
+      "date": "2024-11-20",
+      "item": "The Seven Husbands of Evelyn Hugo",
+      "description": "A captivating novel about fame, love, and secrets, written by Taylor Jenkins Reid.",
+      "people_name": "Taylor Jenkins Reid"
+    }
+  ]
+  

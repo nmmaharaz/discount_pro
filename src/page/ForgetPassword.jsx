@@ -1,8 +1,20 @@
 import { useContext } from "react";
 import { AuthContext } from "../Components/AuthProvider";
+import { Link, Navigate, NavLink } from "react-router-dom";
 
 const ForgetPassword = () => {
-  const { forgetEmail, forgetPassword, resetPassword} = useContext(AuthContext);
+  const { forgetEmail, forgetPassword, resetPassword, logOut} = useContext(AuthContext);
+
+
+  const handleLogOut = () =>{
+    logOut()
+    .then(result=>{
+        console.log(result)
+    })
+    .catch(error=>{
+        console.log(error)
+    })
+  }
 
   const handleForgetPassword = (e) => {
     e.preventDefault();
@@ -19,9 +31,11 @@ const ForgetPassword = () => {
     const email = e.target.email.value;
     resetPassword(email)
     .then(result=>{
+        logOut()
         console.log(result)
     })
     .catch(error=>{
+        logOut()
         console.log(error)
     })
   };
@@ -44,7 +58,7 @@ const ForgetPassword = () => {
               />
             </div>
             <div className="form-control mt-4">
-              <button className="btn text-white bg-[#f57f25]">Reset</button>
+              <Link onClick={handleLogOut} to="https://gmail.com/" target="_blank" className="btn text-white bg-[#f57f25]">Reset</Link>
             </div>
           </form>
         ) : (
@@ -62,7 +76,7 @@ const ForgetPassword = () => {
               />
             </div>
             <div className="form-control mt-4">
-              <button className="btn text-white bg-[#f57f25]">Reset</button>
+            <Link onClick={handleLogOut} to="https://gmail.com/" target="_blank" className="btn text-white bg-[#f57f25]">Reset</Link>
             </div>
           </form>
         )}

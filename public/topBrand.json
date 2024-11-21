@@ -1,0 +1,75 @@
+[
+    {
+      "_id": "1",
+      "title": "Aarong - Premium Lifestyle Brand",
+      "brand_name": "Aarong",
+      "brand_logo": "https://i.ibb.co.com/B3pdjjp/53142143-b874-49aa-a45a-755038438d76.png",
+      "shop_Link": "https://www.aarong.com",
+      "rating": 5
+    },
+    {
+      "_id": "2",
+      "title": "Pran - Quality Food and Beverages",
+      "brand_name": "Pran",
+      "brand_logo": "https://i.ibb.co.com/D4fBzYw/pran.png",
+      "shop_Link": "https://www.pranfoods.net",
+      "rating": 3.8
+    },
+    {
+      "_id": "4",
+      "title": "RFL - Home and Living Essentials",
+      "brand_name": "RFL",
+      "brand_logo": "https://i.ibb.co.com/MNrzLBT/RFL.png",
+      "shop_Link": "https://www.rflbd.com",
+      "rating": 4.7
+    },
+    {
+      "_id": "5",
+      "title": "Bata - Trusted Footwear Brand",
+      "brand_name": "Bata",
+      "brand_logo": "https://i.ibb.co.com/z6pSrZ3/987f81a9-8aa8-42e3-b4db-b40d2b5a0c86.png",
+      "shop_Link": "https://www.batabd.com",
+      "rating": 3.5
+    },
+    {
+      "_id": "7",
+      "title": "Square - Trusted Healthcare Products",
+      "brand_name": "Square",
+      "brand_logo": "https://i.ibb.co.com/g4cZGQx/685ede63-3153-4e64-95b0-685e6b0fd1a2.png",
+      "shop_Link": "https://www.squarepharma.com.bd",
+      "rating": 4.1
+    },
+    {
+      "_id": "8",
+      "title": "Walton - Innovative Electronics",
+      "brand_name": "Walton",
+      "brand_logo": "https://i.ibb.co.com/zRDdDLT/78db3a51-8e52-46c6-bdc5-02d84c2decfd.png",
+      "shop_Link": "https://www.waltonbd.com",
+      "rating": 4.3
+    },
+    {
+      "_id": "9",
+      "title": "Beximco - Textile and Pharma Leaders",
+      "brand_name": "Beximco",
+      "brand_logo": "https://i.ibb.co.com/gwSyx09/Beximco.png",
+      "shop_Link": "https://www.beximco.com",
+      "rating": 3.6
+    },
+    {
+      "_id": "10",
+      "title": "IFAD Group - Quality Consumer Goods",
+      "brand_name": "IFAD Group",
+      "brand_logo": "https://i.ibb.co.com/M1s5836/b9a3fc85-e67e-4ef9-9d1a-03be395a93fb.png",
+      "shop_Link": "https://www.ifadgroup.com",
+      "rating": 4.0
+    },
+    {
+      "_id": "11",
+      "title": "Gazi Tyres - Reliable Tire Solutions",
+      "brand_name": "Gazi Tyres",
+      "brand_logo": "https://i.ibb.co.com/R3hSvh8/f412f544-11ad-4e03-a17c-201597287513.png",
+      "shop_Link": "https://www.gazi.com.bd",
+      "rating": 3.4
+    }
+  ]
+  

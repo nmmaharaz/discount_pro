@@ -3,6 +3,7 @@ import { AuthContext } from "../Components/AuthProvider";
 import { CgProfile } from "react-icons/cg";
 import { FaUserCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { MdOutlineEmail } from "react-icons/md";
 
 
 const MyProfile = () => {
@@ -19,15 +20,22 @@ const MyProfile = () => {
            </div>
             </div>
           
-          {/* <FontAwesomeIcon icon={FaUserCircle} /> */}
+          <div className="p-5">
+          <div className="flex items-center">
+          <CgProfile className="mr-4 text-2xl" />
           {
-                user &&  <div className="py-2"><h2 className="">{user.displayName}</h2></div>
+                user &&  <div className="py-2"><h2 className="text-xl">{user.displayName}</h2></div>
             }
+          </div>
+          <div className="flex items-center">
+          <MdOutlineEmail className="mr-4 text-2xl" />
           {
-                user &&  <div className="py-2"><h2 className="">{user.email}</h2></div>
+                user &&  <div className="py-2"><h2 className="text-xl">{user.email}</h2></div>
             }
+          </div>
           <div className="card-actions justify-end">
             <Link to = "/updateprofile" className="btn btn-primary">Update Profile</Link>
+          </div>
           </div>
         </div>
       </div>

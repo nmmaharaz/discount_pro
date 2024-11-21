@@ -3,7 +3,7 @@ import { AuthContext } from "./AuthProvider";
 import { useNavigate } from "react-router-dom";
 
 const UpdateProfile = () => {
-    const {AuthupdateProfile, user} = useContext(AuthContext)
+    const {AuthupdateProfile, user, setUser} = useContext(AuthContext)
     const navigate = useNavigate()
     console.log(user)
     const registrationSubmit = (e) =>{
@@ -12,6 +12,9 @@ const UpdateProfile = () => {
         const name = (e.target.name.value)
         AuthupdateProfile({displayName:name, photoURL:photourl})
         .then(result=>{
+          setUser((preUser)=>{
+            return {...preUser, displayName:name, photoURL: photourl}
+          })
             navigate("/my-profile")
           console.log("HELLOW")
         }).catch(error=>{
