@@ -7,7 +7,7 @@
 The goal of **Discount PRO** is to provide a centralized platform where users can access **discount coupons and voucher codes** from various e-commerce stores. This helps users **save money** and enjoy **exclusive discounts** with minimal effort.
 
 ## 🌐 Live Demo  
-🔗 **[Discount PRO - Live Demo](#)** (Replace with actual URL)
+🔗 **[Discount PRO - Live Demo](https://discount-pro-adee0.web.app/)** (Replace with actual URL)
 
 ---
 
